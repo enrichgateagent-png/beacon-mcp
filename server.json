@@ -1,0 +1,29 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.enrichgateagent-png/beacon-mcp",
+  "description": "Search 17,900+ open-source AI agents by capability, ranked by GitHub traction. Free, no key.",
+  "repository": {
+    "url": "https://github.com/enrichgateagent-png/beacon-mcp",
+    "source": "github"
+  },
+  "version": "0.1.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "beacon-mcp",
+      "version": "0.1.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "description": "Override the Beacon registry base URL (defaults to the public instance). Not required.",
+          "isRequired": false,
+          "format": "string",
+          "isSecret": false,
+          "name": "BEACON_REGISTRY_URL"
+        }
+      ]
+    }
+  ]
+}

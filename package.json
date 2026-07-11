@@ -1,6 +1,6 @@
 {
   "name": "beacon-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "description": "MCP server for Beacon — the search engine for AI agents. Find open-source AI agents by capability, ranked by real GitHub traction, right inside Claude/Cursor/Cline.",
   "bin": {
@@ -44,5 +44,6 @@
   "homepage": "https://portal-five-phi-54.vercel.app",
   "bugs": {
     "url": "https://github.com/enrichgateagent-png/beacon-mcp/issues"
-  }
+  },
+  "mcpName": "io.github.enrichgateagent-png/beacon-mcp"
 }
