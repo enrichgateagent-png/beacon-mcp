@@ -1,0 +1,6 @@
+# Smithery config — https://smithery.ai
+startCommand:
+  type: stdio
+  configSchema: {}
+  commandFunction: |
+    () => ({ command: "npx", args: ["-y", "beacon-mcp"] })

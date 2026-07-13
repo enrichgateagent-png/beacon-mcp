@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.enrichgateagent-png/beacon-mcp",
-  "description": "Search 17,900+ open-source AI agents by capability, ranked by GitHub traction. Free, no key.",
+  "description": "Search 33,000+ open-source AI agents & MCP servers by capability, ranked by real maintenance health (not just stars). Free, no API key.",
   "repository": {
     "url": "https://github.com/enrichgateagent-png/beacon-mcp",
     "source": "github"
