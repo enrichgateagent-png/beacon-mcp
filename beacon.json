@@ -1,0 +1,17 @@
+{
+  "beacon_manifest": "0.1",
+  "id": "enrichgateagent-png/beacon-mcp",
+  "name": "Beacon MCP",
+  "description": "Search 24k+ open-source AI agents and MCP servers by capability, ranked by maintenance health.",
+  "capabilities": ["agent-discovery", "search", "mcp", "registry"],
+  "interfaces": [
+    { "type": "npx", "command": "npx -y beacon-mcp", "transport": "stdio" },
+    { "type": "http", "endpoint": "https://registry-ruby.vercel.app/api/v1/search" }
+  ],
+  "frameworks": ["mcp"],
+  "source": "https://github.com/enrichgateagent-png/beacon-mcp",
+  "homepage": "https://registry-ruby.vercel.app",
+  "owner": { "name": "Beacon", "github": "enrichgateagent-png" },
+  "license": "MIT",
+  "updated_at": "2026-07-13"
+}
